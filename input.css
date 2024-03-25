@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "brush";
+  src: url("../BrushScriptOpti-Regular.otf");
+}
+
+@font-face {
+  font-family: "muliya";
+  src: url("../Muliya tat.otf");
+}
+
+@font-face {
+  font-family: "parsek";
+  src: url("../PARSEK.ttf");
+}
+
+body {
+  background-image: url("../bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-size {
+  font-size: clamp(0.375rem, 0.042rem + 1.778vw, 0.875rem);
+}
+
+.texts-size {
+  font-size: clamp(0.375rem, 0rem + 2vw, 0.875rem);
+}
+
+.margin-three-top {
+  margin-top: clamp(0.375rem, 0rem + 2vw, 0.75rem);
+}
+
+.margin-three {
+  margin-top: clamp(0.375rem, 0rem + 2vw, 0.75rem);
+  margin-bottom: clamp(0.375rem, 0rem + 2vw, 0.75rem);
+}
+
+.margin-four {
+  margin-top: clamp(0.5rem, 0rem + 2.667vw, 1rem);
+  margin-bottom: clamp(0.5rem, 0rem + 2.667vw, 1rem);
+}
+
+.margin-four-bottom {
+  margin-bottom: clamp(0.5rem, 0rem + 2.667vw, 1rem);
+}
+
+.margin-two {
+  margin-top: clamp(0.25rem, 0rem + 1.333vw, 0.5rem);
+  margin-bottom: clamp(0.25rem, 0rem + 1.333vw, 0.5rem);
+}
+
+.margin-six-top {
+  margin-top: clamp(0.375rem, -0.75rem + 6vw, 1.5rem);
+}
+
+.margin-six {
+  margin-top: clamp(0.75rem, 0rem + 4vw, 1.5rem);
+  margin-bottom: clamp(0.75rem, 0rem + 4vw, 1.5rem);
+}
+
+.padding-eight {
+  padding-top: clamp(0.813rem, -0.375rem + 6.333vw, 2rem);
+  padding-bottom: clamp(0.813rem, -0.375rem + 6.333vw, 2rem);
+}
+
+.padding-six {
+  padding-right: clamp(0.75rem, 0rem + 4vw, 1.5rem);
+  padding-left: clamp(0.75rem, 0rem + 4vw, 1.5rem);
+}
